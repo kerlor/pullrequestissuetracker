@@ -4,9 +4,9 @@
   "description": "my test bot",
   "main": "index.js",
   "dependencies": {
-    "github": "^9.2.0",
+    "@octokit/rest": "^15.6.0",
     "js-yaml": "^3.9.0",
-    "probot": "^3.0.0",
+    "probot": "^6.1.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
   "engines": {
     "node": "8.11.2",
     "npm": ">= 4.0.0"
-  }, 
+  },
   "scripts": {
     "start": "probot run ./index.js",
     "test": "mocha && standard --fix"
